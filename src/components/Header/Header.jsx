@@ -22,6 +22,9 @@ const Header = () => {
 				<Link className='ml-5' to={"/orders"}>
 					Orders
 				</Link>
+				<Link className='ml-5' to={"/profile"}>
+					Profile
+				</Link>
 				<Link className='ml-5' to={"/login"}>
 					Log In
 				</Link>
