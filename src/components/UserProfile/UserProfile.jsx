@@ -3,7 +3,7 @@ import { UserContext } from "../Providers/AuthProviders";
 
 const UserProfile = () => {
 	const { user } = useContext(UserContext);
-	console.log(user);
+	// console.log(user);
 	return <div>{user.email}</div>;
 };
 
